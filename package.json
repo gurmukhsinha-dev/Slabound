@@ -1,0 +1,25 @@
+{
+  "name": "slabound-infra",
+  "version": "1.0.0",
+  "description": "SLABound: Autonomous API SLA Arbitration Engine - AWS CDK Infrastructure",
+  "bin": {
+    "slabound": "bin/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy --require-approval never"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "aws-cdk": "^2.147.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.147.0",
+    "constructs": "^10.3.0"
+  }
+}

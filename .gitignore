@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Next.js Build Outputs
+.next/
+*/.next/
+out/
+build/
+
+# CDK Outputs
+cdk.out/
+*/cdk.out/
+*.d.ts
+!src/**/*.d.ts
+
+# Python
+__pycache__/
+*/__pycache__/
+*/**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+*/.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Environment Variables
+.env*.local
+
+# OS Files
+.DS_Store
+Thumbs.db
